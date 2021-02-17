@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body {
+  background: #DCDCDD;
+}
+.text-centering {
+  text-align: center;
+}
+.container {
+  width: 800px;
+  height : 600px;
+  margin: 0px auto;
+}
+.card {
+  line-height : 25px;
+  font-size : 15px;
+  font-weight: 300;
+  background: #CBB9A8;
+  padding: 30px;
+/*  border: 1px solid lightgrey;*/
+  margin: 15px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px gray;
+
+}
+.card h1 {
+  font-family: Poppin, sans-serif;
+  font-size: 39px;
+  color: #498467;
+  line-height: 25px;
+}
+.card h2 {
+  font-family: Poppin, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+.img-round {
+  border-radius: 50%;
+}
+.card p {
+  font-family: Poppin, sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 18px;
+
+}
+.card h3 {
+  font-family: Poppin, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  font-weight: bold;
+  color: #592941;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 30px;
+}
+.list-inline li {
+  display: inline-block;
+}
+.list-inline a {
+  color: #6B2D5C ;
+}
+.btn-green {
+  background-color: #498467;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  font-family: Poppin, sans-serif;
+  font-weight: bolder;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card h1 {
+    line-height: 1.3em;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
